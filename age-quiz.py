@@ -7,6 +7,8 @@ If the age is 21, output the message "Congrats on your 21st!"
 If the age is under 13, output the message "You qualify for the kiddie discount.")
 Else, out the message "Age is but a number.")
 """
+name = input("What is your name? \n")
+print(f"Hi! {name}")
 age = int(input("What is your age? \n"))
 if age > 100:
     print("Sorry, you're dead.")
@@ -20,3 +22,4 @@ elif age < 13:
     print("You qualify for the kiddie discount.")
 else:
     print("Age is but a number")
+print(f"{name}, Thank you for using the program")
